@@ -1,0 +1,15 @@
+Var
+// Seção de Declarações das variáveis 
+a:inteiro
+b:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+a <- 10
+b <- 5
+escreval (a+b)
+escreval (a-b)
+escreval (a/b)
+escreval (a*b)
+
+Fimalgoritmo
