@@ -1,0 +1,92 @@
+Algoritmo "Uso do caso e do escolha, Juan"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Esse algoritimo te proporcionará escolher algumas opções.
+//entre elas estão a escolha de hamburgues, pizzas e açais.
+// Autor(a)    : Juan Deivid Souza Gomes.
+// Data atual  : 14/12/2022
+Var
+// Seção de Declarações das variáveis 
+
+opcao, opcaoham, opcaopizz, opcaoaca, opcaoacai1, opcaoacai2: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("SEJA MUITO BEM-VINDO!")
+escreval("--------------------------------------------")
+ 
+escreval ("Digite 1 para pedir hamburguer")
+escreval ("Digite 2 para pedir pizza")
+escreval ("Digite 3 para pedir açaí")
+leia (opcao)
+escolha opcao
+ // Caso hamburguer
+caso 1
+escreval("Digite 1 para escolher um x-tudo")
+escreval("Digite 2 para escolher um x-salada")
+escreval("Digite 3 para escolher um x-bacon")
+leia (opcaoham)
+escolha  opcaoham
+
+caso 1
+escreval("Parabéns, o seu x-tudo chegará em breve!")
+caso 2
+escreval("Parabéns, seu x-salada chegará em breve!")
+caso 3
+escreval("Parabéns, seu x-bacon chegará em breve!")
+fimescolha
+
+//Caso pizza
+caso 2
+escreval("Digite 1 para escolher uma pizza de calabresa")
+escreval("Digite 2 para escolher uma pizza de catupiri")
+escreval("Digite 3 para escolher uma pizza de queijo")
+escreval("Digite 4 para escolher uma pizza vegana")
+leia(opcaopizz)
+escolha opcaopizz
+caso 1
+escreval("Parabéns, sua pizza de calabresa chegará em breve!")
+caso 2
+escreval("Parabéns, sua pizza de catupiri chegará em breve!")
+caso 3
+escreval("Parabéns, sua pizza de queijo chegará em breve!")
+caso 4
+escreval("Parabéns, sua pizza vegana chegará em breve")
+fimescolha
+//Açaí
+caso 3
+escreval("Digite 1 para escolher um açai comum")
+escreval("Digite 2 para escolher um açai com frutas")
+leia (opcaoaca)
+escolha opcaoaca
+
+caso 1
+escreval("Digite 1 para escolher açai sem nenhum adicional")
+escreval("Digite 2 para adicionar leite em pó e leite condensado em seu açai")
+leia(opcaoacai1)
+escolha opcaoacai1
+
+caso 1
+escreval("Parabéns, seu açai sem nenhum adicional chegará em breve!")
+caso 2
+escreval("Parabéns, seu açai chegará em breve, com leite em pó e leite consensado!")
+fimescolha
+
+caso 2
+escreval("Digite 1 para escolher açai com  morango")
+escreval("Digite 2 para escolher açai com banana")
+escreval("Digite 3 para escoçher açai misto")
+leia(opcaoacai2)
+escolha opcaoacai2
+caso 1
+escreval("Parabéns, seu açai com morango chegará em breve!")
+caso 2
+escreval("Parabéns, seu açai com banana chegrá em breve!")
+caso 3
+escreval ("Parabéns, seu açai misto com morango e banana chegará em breve!")
+fimescolha
+fimescolha
+fimescolha
+//O primeiro "fimescolha" você usará para finalizar somente o caso do açai
+//O segundo e ultimo "fimescolha" é para finalizar todo o código.
+Fimalgoritmo
