@@ -1,0 +1,20 @@
+Algoritmo "USANDO O PARA COM VETORES"
+
+Var
+nomes: vetor[1..5] de  caracter
+numero: inteiro
+
+Inicio
+
+para numero de 1 ate 5 faca
+
+escreval("Digite o nome ", numero)
+leia(nomes[numero])
+//leia(nomes[1])
+fimpara
+
+para numero de 1 ate 5 faca
+escreval("O nome", numero, " é: ", nomes[numero])
+fimpara
+
+Fimalgoritmo
