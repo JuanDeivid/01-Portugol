@@ -1,0 +1,27 @@
+Algoritmo "Usando vetores"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+//Algoritmos para calcular a média de 3 alunos.
+Var
+notas: vetor[1..3] de real
+media: real
+
+Inicio
+
+escreval("Digite a nota do primeiro aluno:")
+leia(notas[1])
+
+escreval("Digite a nota do segundo aluno:")
+leia(notas[2])
+
+escreval("Digite a nota do terceiro aluno:")
+leia(notas[3])
+
+media <- (notas[1]+notas[2]+notas[3])/3
+
+escreval("----------------------------------------")
+escreval("A média dos três alunos é:", media)
+
+
+
+Fimalgoritmo
