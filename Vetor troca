@@ -1,0 +1,51 @@
+Algoritmo "Vetor troca"
+
+
+Var
+   // Seção de Declarações das variáveis
+   troca: inteiro
+   cont1, cont2:inteiro
+   vet: vetor[1..10] de inteiro
+   maior, posicao: inteiro
+
+Inicio
+
+   para cont1 de 1 ate 10 faca
+      escreval("Digite um número inteiros:")
+      leia(vet[cont1])
+   fimpara
+
+   para cont1 de 1 ate 10 faca
+      se vet [cont1] > maior entao
+         maior <- vet[cont1]
+         posicao <- cont1
+      fimse
+   fimpara
+
+   escreval("A ordem crescente dos números é:")
+   para cont1 de 1 ate 10 faca
+      para cont2 de 1 ate 10 faca
+         se vet[cont1] < vet[cont2] entao
+            troca<- vet[cont1]
+            vet[cont1] <- vet [cont2]
+            vet [cont2] <- troca
+         fimse
+      fimpara
+   fimpara
+
+
+   para cont1 de 1 ate 10 faca
+      escreval (vet[cont1], " ")
+   fimpara
+
+   escreval("O valor maior é:")
+   escreval(maior)
+   escreval("O posição em que o numero maior está é:")
+   escreval(posicao)
+
+
+
+
+
+
+Fimalgoritmo
